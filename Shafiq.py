@@ -389,26 +389,28 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
 
- SSSSS    AAA   KK  KK IIIII BBBBBB
-SS       AAAAA  KK KK   III  BB   BB
- SSSSS  AA   AA KKKK    III  BBBBBB  
-     SS AAAAAAA KK KK   III  BB   BB 
- SSSSS  AA   AA KK  KK IIIII BBBBBB  
+ SSSSS    AAA   
+SS       AAAAA  
+ SSSSS  AA   AA  SHAFIQ KHAN 
+     SS AAAAAAA    SAWAND
+ SSSSS  AA   AA   
                         
   \033
 __________________×__×____________________
   
-  Auther   :  JOKER SAKIB
+  Auther   :  SHAFIQ SAWAND
  
-  Github   :  devil-sakib
+  Github   :  Shafiq-Sawand 
 
-  Facebook :  °_° facebook id nai
+  Facebook :  Günalp Bey 
   
-  Contact :  01903226586 (whatsapp)
+  Contact :  923106116534 (whatsapp)
   
-  Youtube : Joker Vaiya Sakib
+  Youtube : No YouTube Channel 
 
-Free Tool Enjoy Koro Kolizar Vai-Brothers  🥰
+Tool Enjoy kro Old Facebook idz  🥰
+
+A Powerful Fb Cloning Tool by SHAFIQ 
 __________________×__×____________________\033[1;37m""")
 
 class Main:
