@@ -4,11 +4,11 @@ FREE TOOL 🥳 OLD ID CRACKER 👽
 
 COMMAND 🌺👇
 
-git clone https://github.com/devil-sakib/x-joker
+git clone https://github.com/Shafiq-Sawand/Dark-Hunter
 
-cd x-joker
+cd Dark-Hunter
 
-python Sakib.py
+python Shafiq.py
 
 
 👽 ENJOY 👽
