@@ -13,6 +13,7 @@ python Shafiq.py
 
 👽 ENJOY 👽
 
-# Contact Us
-  Whatsapp 
-  +923106116534
+# Contact
+
+ [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923106116534) 
+
