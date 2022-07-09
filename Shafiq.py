@@ -6,6 +6,10 @@ B = '\033[94;1m'
 P = '\033[95;1m'
 C = '\033[96;1m'
 N = '\x1b[0m'
+CorrectUsername = "nabil"CorrectPassword = "nabil"
+loop = 'true'while (loop == 'true'):    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")    if (username == CorrectUsername):    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")        if (password == CorrectPassword):            print "Logged By Nabil" + username            loop = 'false'        else:            print "Baler Password"            os.system('https://www.youtube.com/channel/UC8km4e4REGBnOSknq82h_ew_confirmation=1 ')    else:        print "Wrong Username"        os.system('https://www.youtube.com/channel/UC8km4e4REGBnOSknq82h_ew_confirmation=1 ')
+def login():	os.system('clear')
+
 import os
 try:
 	import requests
