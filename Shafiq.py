@@ -428,14 +428,14 @@ class Main:
 		print(" [2] Public Cloning")
 		print(" [3] 2007-10 Cloning")
 		print(" [4] 2011-15 Cloning")
-		print(" [5] Create File")
+		print(" [5] My Facebook Account")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
 		if JAHIED in ["2", "02"]:
 			Public()
 		if JAHIED in ["5", "05"]:
-			os.system("python Shafiq.py")
+			os.system("https://www.facebook.com/SultanHizirReis")
 		if JAHIED in ["3", "03"]:
 			self.old()
 		if JAHIED in ["4", "04"]:
