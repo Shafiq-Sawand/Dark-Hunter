@@ -429,6 +429,7 @@ class Main:
 		print(" [3] 2007-10 Cloning")
 		print(" [4] 2011-15 Cloning")
 		print(" [5] My Facebook Account")
+                print(" [6] Update tool
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
@@ -440,6 +441,8 @@ class Main:
 			self.old()
 		if JAHIED in ["4", "04"]:
 			self.old2()
+                if JAHIED in ["6", "06"]:
+                        os.system("git pull")
 			exit()
 		else:
 			print (" Select Correctly ")
