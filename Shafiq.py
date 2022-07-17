@@ -417,7 +417,7 @@ __________________×__×____________________
 __________________×__×____________________\033[1;37m""")
 
 class Main:
-	def Subscription:
+	def Subscraption:
 		self.id = []
 		self.ok = []
 		self.cp = []
@@ -1301,7 +1301,7 @@ class Main:
 		self.loop +=1
 
 
-def Subscription():
+def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
