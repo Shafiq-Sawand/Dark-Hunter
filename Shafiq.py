@@ -427,7 +427,6 @@ class Main:
 		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
-		print(" [3] Create File")
 		print(" [4] 2005-10 Cloning")
 		print(" [5] 2011-12 Cloning")
 		print(" [6] Exit Programming\n")
