@@ -399,8 +399,7 @@ Y88b  d88P 888  888 888  888 888    888 Y88b 888
  "Y8888P"  888  888 "Y888888 888    888  "Y88888 
                                              888 
                                              888 
-                                             888                                                                
-                                                                                                                                                                                                                                                                                         
+                                             888                                                                                                                                                                                                                                                                                                   
   \033
 __________________×__×____________________
   
@@ -427,19 +426,19 @@ class Main:
 		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
-		print(" [4] 2005-10 Cloning")
-		print(" [5] 2011-12 Cloning")
-		print(" [6] Exit Programming\n")
+		print(" [3] 2007-10 Cloning")
+		print(" [4] 2011-15 Cloning")
+		print(" [5] Create File")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
 		if JAHIED in ["2", "02"]:
 			Public()
-		if JAHIED in ["3", "03"]:
-			os.system("python Dump.py")
-		if JAHIED in ["4", "04"]:
-			self.old()
 		if JAHIED in ["5", "05"]:
+			os.system("python Shafiq.py")
+		if JAHIED in ["3", "03"]:
+			self.old()
+		if JAHIED in ["4", "04"]:
 			self.old2()
 			exit()
 		else:
