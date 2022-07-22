@@ -417,7 +417,6 @@ while (loop == 'true'):
 		loop = 'false'
 	else:
 		os.system('xdg-open https://www.facebook.com/SultanHizirReis')
-	else:
 		exit()		
 class Main:
 	def __init__(self):
