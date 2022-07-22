@@ -387,7 +387,7 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
+logo = ("""\033[1;96m
 ╔═══╗╔╗─╔╗╔═══╗╔═══╗╔══╗╔═══╗
 ║╔═╗║║║─║║║╔═╗║║╔══╝╚╣─╝║╔═╗║
 ║╚══╗║╚═╝║║║─║║║╚══╗─║║─║║─║║
@@ -414,14 +414,12 @@ while (loop == 'true'):
 	username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
 	if (username == CorrectUsername):
 		password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
-		print "Logged in successfully Shafiq khan"
 		loop = 'false'
 	else:
 		print "Wrong Password"
 		os.system('xdg-open https://www.facebook.com/SultanHizirReis')
 	else:
-		print "Wrong Username"
-		os.system('xdg-open https://www.facebook.com/SultanHizirReis')		
+		exit()		
 class Main:
 	def __init__(self):
 		self.id = []
@@ -442,7 +440,7 @@ class Main:
 		if JAHIED in ["2", "02"]:
 			Public()
 		if JAHIED in ["5", "05"]:
-			os.system('am start https://www.facebook.com/SultanHizirReis')
+			os.system('xdg open https://www.facebook.com/SultanHizirReis')
 		if JAHIED in ["3", "03"]:
 			self.old()
 		if JAHIED in ["4", "04"]:
