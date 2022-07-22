@@ -406,7 +406,7 @@ ____________________________________
   𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  +923106116534
 
  𝙁𝘽 𝘾𝙍𝘼𝘾𝙆𝙀𝙍 𝙏𝙊𝙊𝙇 𝘽𝙔 𝙎𝙃𝘼𝙁𝙄𝙌 𝙎𝘼𝙒𝘼𝙉𝘿
-____________________________________\033[1;98m""")
+____________________________________\033[1;97m""")
 class Main:
 	def __init__(self):
 		self.id = []
@@ -421,20 +421,24 @@ class Main:
 		print(" [4] 2011-15 Cloning")
 		print(" [5] My Facebook Account")
 		print(" [6] Update tool")
+		print(" [7] Exit Programming")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
 			File()
 		if JAHIED in ["2", "02"]:
 			Public()
 		if JAHIED in ["5", "05"]:
-			os.system('xdg open https://www.facebook.com/SultanHizirReis')
+			os.system('am start https://www.facebook.com/SultanHizirReis')
 		if JAHIED in ["3", "03"]:
 			self.old()
 		if JAHIED in ["4", "04"]:
 			self.old2()
 		if JAHIED in ["6", "06"]:
 			os.system("git pull")
+			time.sleep(1)
 			Main()
+		if JAHIED in ["7", "07"]:
+			exit()
 		else:
 			print (" Select Correctly ")
 			time.sleep(1)
