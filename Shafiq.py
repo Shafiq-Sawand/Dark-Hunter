@@ -407,7 +407,21 @@ ____________________________________
 
  𝙁𝘽 𝘾𝙍𝘼𝘾𝙆𝙀𝙍 𝙏𝙊𝙊𝙇 𝘽𝙔 𝙎𝙃𝘼𝙁𝙄𝙌 𝙎𝘼𝙒𝘼𝙉𝘿
 ____________________________________\033[1;37m""")
-
+CorrectUsername = "ShafiqSawand"
+CorrectPassword = "SHAFIQ405"
+loop = 'true'
+while (loop == 'true'):
+	username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+	if (username == CorrectUsername):
+		password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+		print "Logged in successfully as " + username
+		loop = 'false'
+	else:
+		print "Wrong Password"
+		os.system('xdg-open https://www.facebook.com/SultanHizirReis')
+	else:
+		print "Wrong Username"
+		os.system('xdg-open https://www.facebook.com/SultanHizirReis')		
 class Main:
 	def __init__(self):
 		self.id = []
