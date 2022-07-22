@@ -406,18 +406,7 @@ ____________________________________
   𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  +923106116534
 
  𝙁𝘽 𝘾𝙍𝘼𝘾𝙆𝙀𝙍 𝙏𝙊𝙊𝙇 𝘽𝙔 𝙎𝙃𝘼𝙁𝙄𝙌 𝙎𝘼𝙒𝘼𝙉𝘿
-____________________________________\033[1;37m""")
-CorrectUsername = "ShafiqSawand"
-CorrectPassword = "SHAFIQ405"
-loop = 'true'
-while (loop == 'true'):
-	username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
-	if (username == CorrectUsername):
-		password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
-		loop = 'false'
-	else:
-		os.system('xdg-open https://www.facebook.com/SultanHizirReis')
-		exit()		
+____________________________________\033[1;98m""")
 class Main:
 	def __init__(self):
 		self.id = []
